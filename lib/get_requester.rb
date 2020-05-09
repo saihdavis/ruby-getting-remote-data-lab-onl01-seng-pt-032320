@@ -4,4 +4,3 @@ class GetRequester
     
   end
   
-end
