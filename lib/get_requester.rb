@@ -1,6 +1,10 @@
 class GetRequester
   
-  url = 'https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json'
-    
+ attr_accessor :url 
+ 
+ def initialize(url)
+   @url = url
   end
+    
+end
   
